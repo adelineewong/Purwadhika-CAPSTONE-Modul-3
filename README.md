@@ -27,7 +27,6 @@ Model klasifikasi ini akan digunakan untuk memprediksi kemungkinan churn setiap 
 2. Recall: Fokus utama proyek ini, mengukur kemampuan model dalam mendeteksi customer yang benar-benar churn (meminimalkan false negatives).
 3. F1-Score: Rata-rata harmonis antara precision dan recall.
 4. ROC-AUC: Mengukur kemampuan model dalam memisahkan kelas churn dan tidak churn.
-5. Precision-Recall Curve: Digunakan untuk menentukan threshold optimal berdasarkan trade-off antara precision dan recall.
 
 ### **Fitur yang Digunakan**
 1. Tenure: Lama waktu pelanggan berlangganan.
