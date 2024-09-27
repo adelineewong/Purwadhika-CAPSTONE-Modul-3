@@ -21,15 +21,15 @@ Analisis ini akan dimulai dengan eksplorasi data untuk menemukan pola-pola yang 
 
 Model klasifikasi ini akan digunakan untuk memprediksi kemungkinan churn setiap customer, yang kemudian dapat membantu perusahaan dalam menargetkan customer berisiko dengan lebih tepat.
 
-Metrik Evaluasi
+### **Metrik Evaluasi**
 
-Precision: Mengukur seberapa akurat prediksi churn (meminimalkan false positives).
-Recall: Fokus utama proyek ini, mengukur kemampuan model dalam mendeteksi customer yang benar-benar churn (meminimalkan false negatives).
-F1-Score: Rata-rata harmonis antara precision dan recall.
-ROC-AUC: Mengukur kemampuan model dalam memisahkan kelas churn dan tidak churn.
-Precision-Recall Curve: Digunakan untuk menentukan threshold optimal berdasarkan trade-off antara precision dan recall.
+1. Precision: Mengukur seberapa akurat prediksi churn (meminimalkan false positives).
+2. Recall: Fokus utama proyek ini, mengukur kemampuan model dalam mendeteksi customer yang benar-benar churn (meminimalkan false negatives).
+3. F1-Score: Rata-rata harmonis antara precision dan recall.
+4. ROC-AUC: Mengukur kemampuan model dalam memisahkan kelas churn dan tidak churn.
+5. Precision-Recall Curve: Digunakan untuk menentukan threshold optimal berdasarkan trade-off antara precision dan recall.
 
-### **Fitur yang Digunakan***
+### **Fitur yang Digunakan**
 1. Tenure: Lama waktu pelanggan berlangganan.
 2. WarehouseToHome: Jarak antara gudang dan rumah pelanggan.
 3. NumberOfDeviceRegistered: Jumlah perangkat yang terdaftar.
